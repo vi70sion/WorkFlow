@@ -138,8 +138,7 @@ public class Main {
 
         int liekaSimboliu = ilgasZodis.length() % 3;
         for (int i = 0; i < ilgasZodis.length() - liekaSimboliu; i += 3){
-            System.out.printf(ilgasZodis.substring(i,i+3));
-            System.out.println();
+            System.out.println(ilgasZodis.substring(i,i+3));
         }
         if (liekaSimboliu == 1){
             System.out.println(ilgasZodis.substring(ilgasZodis.length()-1));
